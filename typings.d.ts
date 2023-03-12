@@ -35,7 +35,7 @@ interface Reference {
 
 interface Slug {
   _type: 'slug';
-  _current: string;
+  current: string;
 }
 
 interface Block {

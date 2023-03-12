@@ -5,7 +5,7 @@ import PreviewBlogList from '../../components/PreviewBlogList';
 import BlogList from '../../components/BlogList';
 import { client } from '../../lib/sanity.client';
 
-export const revalidate = 86400;
+export const revalidate = 864000;
 
 const query = groq`
   *[_type == 'post'] {

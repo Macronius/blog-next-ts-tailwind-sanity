@@ -11,7 +11,7 @@ type Props = {
   };
 };
 
-export const revalidate = 86400; // revalidate this page every 60 seconds
+export const revalidate = 864000; // revalidate this page every 60 seconds
 
 /** OPTIMIZATION - MINIMIZE SANITY FETCHING */
 export async function generateStaticParams() {
